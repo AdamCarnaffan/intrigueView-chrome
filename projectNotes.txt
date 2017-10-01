@@ -1,0 +1,19 @@
+Process
+----------
+1) Configure
+  
+  Config for logging in
+    Validate the login on configure
+    When a valid login is complete, store a hashed password and username
+    On a new session, with intrigueView-chrome, store the User_id and pass that once login is complete
+  
+  Config for the intrigueView URL (any URL from the intrigueView Site)
+    Validate that the intrigueView URL points to an intrigueView site
+    
+  Config for the feed
+    Once the login and intrigueView URL are confirmed, select a feed
+    The feed must be a feed owned by the user
+    The DEFAULT is the default feed for the user
+
+2) Use
+  On an outside site, click the icon to save the site to the configured feed
